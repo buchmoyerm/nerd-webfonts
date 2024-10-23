@@ -6,8 +6,9 @@ A simple css for adding https://github.com/ryanoasis/nerd-fonts to chrome's secu
 
 In the **secure shell app** settings set the following
 
-* Set **font-family**: "DejaVu Sans Mono Nerd", monospace
-* Set **Custom CCS (URI)**: https://raw.githubtusercontent.com/buchmoyerm/nerd-webfonts/NerdFonts.css
+*   Set **font-family**: "DejaVu Sans Mono Nerd", monospace
+*   Set **Custom CCS (URI)**:
+    https://raw.githubusercontent.com/buchmoyerm/nerd-webfonts/main/NerdFonts.css
 
 For **Crosh Window**
 
@@ -15,7 +16,7 @@ For **Crosh Window**
 
 ```
 term_.prefs_.set('font-family', '"DejaVu Sans Mono Nerd", monospace');
-term_.prefs_.set('user-css', 'https://raw.githubtusercontent.com/buchmoyerm/nerd-webfonts/NerdFonts.css');
+term_.prefs_.set('user-css', 'https://raw.githubusercontent.com/buchmoyerm/nerd-webfonts/main/NerdFonts.css');
 ```
 
 ## Supported fonts to use for font-family
@@ -24,4 +25,3 @@ term_.prefs_.set('user-css', 'https://raw.githubtusercontent.com/buchmoyerm/nerd
 * `JetBrains Mone Nerd`
 * `Source Code Pro Nerd`
 * `Ubuntu Mono Nerd`
-
